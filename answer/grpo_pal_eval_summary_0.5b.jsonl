@@ -1,0 +1,11 @@
+{
+  "total": 1319,
+  "answer_correct": 923,
+  "answer_accuracy": 0.6997725549658904,
+  "used_python_tool": 1316,
+  "tool_usage_rate": 0.9977255496588324,
+  "tool_call_success": 1271,
+  "tool_success_rate": 0.9636087945413192,
+  "error_count": 48,
+  "error_rate": 0.03639120545868082
+}

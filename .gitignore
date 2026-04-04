@@ -1,0 +1,15 @@
+doc/agentic_rl.md
+doc/data_prepare.md
+doc/deepresearch.md
+src/agentic_rl/data/__pycache__
+src/agentic_rl/__pycache__
+src/agentic_rl.egg-info
+data/processed
+data/raw/deepresearch_9k
+src/agentic_rl/tools/__pycache__
+models
+.vscode
+output
+src/agentic_rl/eval/__pycache__
+src/agentic_rl/train/__pycache__
+src/agentic_rl/tools/.env

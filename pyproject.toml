@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentic-rl"
+version = "0.1.0"
+description = "Agentic RL skeleton with Python and Search tools"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "ms-swift>=3.0.0",
+  "openai>=1.40.0",
+  "datasets>=2.20.0",
+  "faiss-cpu>=1.8.0",
+  "sentence-transformers>=3.0.1",
+  "trafilatura>=1.11.0",
+  "requests>=2.32.0",
+  "rapidfuzz>=3.9.0",
+  "fastapi>=0.112.0",
+  "uvicorn>=0.30.0",
+  "pydantic>=2.8.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
